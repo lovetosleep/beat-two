@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.contacts-phone.header__contacts-phone {
+    @include tablets {
+        display: none;
+    }
+}
+
